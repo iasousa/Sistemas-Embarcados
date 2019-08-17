@@ -1,0 +1,23 @@
+1. O que são sistemas embarcados?
+	Existem várias definições para sistemas embarcados, porém, uma das definições que melhor explica o conceito é a que foi enunciada por Barr e Ganssle no livro Embedded Systems Dictionary: "Sistemas Embarcados são uma combinação de hardware e software, e frequentemente outras partes elétricas e/ou mecânicas, projetado para executar função específica. Em alguns casos, fazem parte de um produto ou sistema maior". 
+
+2. O que são sistemas microprocesssados?
+	Sistemas microprocessados são sistemas combinados por hardware e software no qual o computador (processador e outros componentes de hardware) está encapsulado e é programado para atender às especificidades dos dispositivos ou sistemas que controlam. Para isso, eles devem realizar tarefas pré-determinadas com requisitos específicos.
+
+3. Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
+	(a) Controle de motor, controle de injeção eletrônica, alarmes, controle de transmissão, freio ABS, airbag, controle de tração, sistemas multimídia, sistemas de navegação (GPS), etc.
+	(b) Controle de temperatura de uma geladeira, interface e controle de um forno micro-ondas, escovas elétricas, interface e controle de uma máquina de lavar roupas, etc.
+	(c) CLP (Controlador Lógico Programável), PAC (Controlador Programável de Automação), computador de vazão, inversor de frequência, soft-start, servo-conversor, controlador de motor, etc.
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+	Microcontroladores: É um pequeno computador num único circuito integrado o qual contém um núcleo de processador, memória e periféricos programáveis de entrada e saída. Não apresenta um sistema operacional para programação, sendo que os programas devem ser desenvolvidos e inseridos diretamente no microcontrolador.
+	Procesadores de Propósito Geral (GPPs): São microprocessadores que realizam operações matemáticas e realizam tarefas de propósito geral. Esses são os processadores encontrados em computadores pessoais (PCs), tais como Intel Core i7, Ryzen 7, etc. Eles realizam tarefas de forma extremamente rápidas e geralmente são mais caros quando comparados com microcontroladores e DSPs, pois devem ser versáteis para cumprirem tarefas de propósito geral.
+	DSPs (Digital Signal Processors): São microprocessadores especializados, os quais apresentam arquitetura otimizada para realização de tarefas relacionadas ao processamento digital de sinais. Os objetivos dos DSPs são medir, filtrar e comprimir sinais de forma digital. Eles também podem apresentar algoritmos utilizados em processamento digital de sinais. São extremamente rápidos, porém, especializados para o processamento de sinais digitais, ou seja, não podem ser usados como GPPs e, por isso, geralmente são mais baratos do que estes.
+	FPGAs (Field Programmable Gate Arrays): As FPGAs são circuitos integrados programados com linguagem de descrição de hardware (HDL) e são muito utilizadas para simulações de circuitos elétricos. Com FPGAs, é possível programar portas lógicas, blocos lógicos, flip-flops, etc.
+	ASICs (Application Specific Integrated Circuits): São circuitos integrados especializados para realizar uma funcionalidade bem específica. Por exemplo, existem ASICs para gravação de áudio ou para minerar bitcoins de forma mais eficiente. 
+	SoCs (System on Chip): São uma combinação de microprocessadores com microcontroladores com periféricos mais avançados, tais como unidade de processamento gráfico (GPU) e módulo Wi-Fi. Também é possível inserir um sistema operacional para auxiliar na programação. Um exemplo é justamente a Raspberry Pi.
+	MPSoCs (Multiple Processor System on Chip): É simplesmente um SoC com múltiplos microprocessadores. Dessa forma, a capacidade de processamento do sistema é aumentada drasticamente, assim como o preço do produto.
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+	Porque a Raspberry Pi é muito utilizada em diversos projetos, tem um preço acessível, é um SoC didático pela facilidade de obtenção de suporte e também por poder embarcar um sistema operacional Linux, e, assim, é uma oportunidade para estudar e aprender mais sobre programação e também sobre o Linux. Também é uma oportunidade de ter contato com um SoC utilizado pela indústria e aprender mais sobre suas capacidades e limitações, pois há várias ferramentas para projetos de engenharia e uma parte do trabalho de um engenheiro é conhecer essas ferramentes e saber escolher a que melhor cumpre os requisitos do projeto a ser realizado.
+
