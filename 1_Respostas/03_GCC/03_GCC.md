@@ -1,6 +1,7 @@
 Para todas as questões, compile-as com o gcc e execute-as via terminal.
 
 1. Crie um "Olá mundo!" em C.
+
 	No arquivo Ola_Mundo.c
 
 2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
@@ -119,6 +120,7 @@ $ Argumentos: Eu Mesmo e Minha Pessoa
 
 8. Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo:
 `int Num_Caracs(char *string);` Salve-a em um arquivo separado chamado 'num_caracs.c'. Salve o protótipo em um arquivo chamado 'num_caracs.h'. Compile 'num_caracs.c' para gerar o objeto 'num_caracs.o'.
+
 	gcc -c num_caracs.c
 
 9. Re-utilize o objeto criado na questão 8 para criar um código que imprime cada argumento de entrada e a quantidade de caracteres de cada um desses argumentos. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_1':
@@ -132,6 +134,7 @@ $ Argumento: Mesmo / Numero de caracteres: 5
 	gcc -o ola_num_caracs_1 ola_num_caracs_1.c num_caracs.o
 
 10. Crie um Makefile para a questão anterior.
+
 	Na pasta Q10.
 
 11. Re-utilize o objeto criado na questão 8 para criar um código que imprime o total de caracteres nos argumentos de entrada. Por exemplo, considerando que o código criado recebeu o nome de 'ola_num_caracs_2':
@@ -143,4 +146,5 @@ $ Total de caracteres de entrada: 25
 	gcc -o ola_num_caracs_2 ola_num_caracs_2.c num_caracs.o
 
 12. Crie um Makefile para a questão anterior.
+
 	Na pasta Q12.
